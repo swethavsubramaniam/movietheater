@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+// new tests
 public class MovieTests {
     @Test
     void specialMovieWith20PercentDiscount() {

@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// new tests
 public class TheaterTests {
     static Theater theater;
     static Customer john;

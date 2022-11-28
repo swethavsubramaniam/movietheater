@@ -27,3 +27,16 @@ This is a poorly written application, and we're expecting the candidate to great
   * Any movies showing on 7th, you'll get 1$ discount
   * The discount amount applied only one if met multiple rules; biggest amount one
 * We want to print the movie schedule with simple text & json format
+
+## New Implementation
+* Added JaCoCo maven dependancy to track code coverage with junit testing. After new requirements were implemented , unused code removed, new tests added code coverage is now 95%.
+* Added json maven dependancy to address json print output 
+* Fixed logic for returning the correct fee for movie tickets
+
+## Steps to view the code coverage reports
+* Please pull the feature branch 
+* Run mvn clean test
+* The JaCoCo code coverage report will be generated at target/site/jacoco/* 
+
+## Note
+JaCoCo is an actively developed line coverage tool that is used to measure the number of lines in code that are tested
