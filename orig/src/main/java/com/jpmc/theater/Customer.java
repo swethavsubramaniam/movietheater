@@ -4,20 +4,18 @@ import java.util.Objects;
 
 public class Customer {
 
-    private String name;
+    private final String name;
 
-    private String id;
+    private final String id;
 
     /**
      * @param name customer name
-     * @param id customer id
+     * @param id   customer id
      */
     public Customer(String name, String id) {
         this.id = id; // NOTE - id is not used anywhere at the moment
-
         this.name = name;
-
-        }
+    }
 
     @Override
     public boolean equals(Object o) {
