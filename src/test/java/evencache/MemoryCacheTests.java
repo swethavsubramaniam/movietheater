@@ -8,12 +8,13 @@ import java.time.Instant;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 class MemoryCacheTests {
 
-    private void assertNotInCache(MemoryCache cache, String key) {
+    private void assertNotInCache(onecache.MemoryCache cache, String key) {
         CacheResult result = cache.get(key);
         assertEquals(false, result.cached, String.format("Expected %s to not be in cache but was", key));
         assertEquals(null, result.value);
